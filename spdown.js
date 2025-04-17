@@ -5,8 +5,8 @@ const qs = require('qs');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const client_id = '414df719f85e45c9bd0ee5e83d08b501';
-const client_secret = 'fa7e159a0b904b8b8505bf59b6458d3a';
+const client_id = '3e34b7f2ce4a4342acfeec4631d15ef4';
+const client_secret = '78311164368a49a9b21d42805fb833d9';
 
 const getSpotifyAccessToken = async () => {
     try {
